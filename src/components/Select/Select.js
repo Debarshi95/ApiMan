@@ -11,11 +11,11 @@ const Select = ({ options, defaultValue, onSelected, ...props }) => {
     onSelected(value)
   }
   return (
-    <div className="w-28 relative text-gray-800" {...props}>
+    <div className="w-36 relative text-gray-800" {...props}>
       <div role="button" aria-hidden onClick={() => setOpen(!open)} className="px-2">
         {selectedValue && <p>{selectedValue}</p>}
       </div>
-      <div className="bg-green-300 absolute top-10 left-0 w-24">
+      <div className="bg-green-300 absolute top-10 left-0 w-32">
         {open &&
           options.map((option, idx) => (
             <div
