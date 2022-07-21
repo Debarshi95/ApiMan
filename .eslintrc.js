@@ -15,9 +15,21 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [],
+  settings: {
+    'import/resolver': {
+      node: {
+        paths: ['src'],
+        extensions: ['.js', '.ts', '.d.ts', '.tsx'],
+      },
+    },
+  },
   rules: {
     'react/jsx-filename-extension': ['warn', { extensions: ['.js', '.jsx'] }],
+    'react/prop-types': 'off',
     'prettier/prettier': 'error',
+    'react/jsx-props-no-spreading': 'off',
+    'react/no-array-index-key': 'off',
+    'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': [
       'error',
       {

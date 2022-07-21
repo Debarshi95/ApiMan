@@ -8,8 +8,19 @@ body {
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(74, 222, 128);
+  min-height: calc(100vh - 2.5rem);
 }
 
 * {
   box-sizing: border-box;
+}
+
+@layer base {
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  .max-w-80 {
+    max-width: 80%;
+  }
 }
