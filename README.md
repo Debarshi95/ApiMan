@@ -6,7 +6,7 @@ A ReactJS based app to test APIs.
 
 ## Demo
 
-![Desktop](screenshots/screen-capture.webm)
+[screen-capture.webm](https://user-images.githubusercontent.com/42608795/180593405-0be0baf3-39f3-4656-bda2-8f002acae893.webm)
 
 ### Frontend
 
